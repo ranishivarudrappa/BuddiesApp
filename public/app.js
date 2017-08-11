@@ -41,8 +41,7 @@ var studentsApp = angular.module('studentsApp', ['ui.bootstrap','ui.grid']);
     });
     studentsApp.controller('studentsController', function($scope,$uibModal,BuddiesFactory){
 
-//        $scope.students = [{username:'isha',fname:'sashi', lname:'kodi', status:'available',bdate:new Date('1981-11-19'), bio:'i like chatting', email:'sashikv@yahoo.com'},
-//            {username:'shake',fname:'sekhar', lname:'kodi', status:'busy', email:'sekhar.sh@gmail.com',bdate:new Date('1979-02-28'), bio:'likes to do research'}];
+//        $scope.students = [{}];
         
 //        $scope.reverse=false;
 //        $scope.sortorder="username";
